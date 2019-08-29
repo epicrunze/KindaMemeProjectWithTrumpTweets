@@ -14,9 +14,9 @@ api = tweepy.API(auth)
 
 for status in tweepy.Cursor(api.user_timeline, id="realDonaldTrump", count=1000).items(1000):
     filename = "trumptweets.txt"
-    filepath = open(filename,"a+",encoding="utf-8")
+    filepath = open(filename,"a+",encoding="utf-16")
     #print(dir(status))
     if hasattr(status, 'retweeted_status'):
         continue
-    filepath.write(status.text + "/n")
+    filepath.write(status.text + "\n")
     filepath.close()
