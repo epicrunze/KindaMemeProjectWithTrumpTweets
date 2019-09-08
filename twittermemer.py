@@ -1,8 +1,5 @@
 import tweepy
-consumer_key = "0ZuCEN7DYNLpsUTNELQx6TdFf"
-consumer_secret = "PYMcv3IRHfk2oftMMXIFmwf2OqKNd2b8yi0nBGlEjtR6mEY8DZ"
-access_token = "118683800-y4TsB3UiLtOijqXhR9rVEZq2lZk7yfQulOL8jpKh"
-access_token_secret = "X9Q6CeqadRWpr34ekptCCAN7DxxtxN2cOO9Wb5vY4G5tB"
+
 
 #actual code:
 
